@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A275564F1CB0EAE1007257DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A275564E1CB0EAE1007257DD /* main.m */; };
+		A27556521CB0EAE1007257DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A27556511CB0EAE1007257DD /* AppDelegate.m */; };
+		A27556551CB0EAE1007257DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A27556541CB0EAE1007257DD /* ViewController.m */; };
+		A27556581CB0EAE1007257DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27556561CB0EAE1007257DD /* Main.storyboard */; };
+		A275565A1CB0EAE1007257DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A27556591CB0EAE1007257DD /* Assets.xcassets */; };
+		A275565D1CB0EAE1007257DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A275565B1CB0EAE1007257DD /* LaunchScreen.storyboard */; };
+		A27556681CB0EAE1007257DD /* DZBookReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A27556671CB0EAE1007257DD /* DZBookReaderTests.m */; };
+		A27556731CB0EAE1007257DD /* DZBookReaderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A27556721CB0EAE1007257DD /* DZBookReaderUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A27556641CB0EAE1007257DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A27556421CB0EAE1007257DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A27556491CB0EAE1007257DD;
+			remoteInfo = DZBookReader;
+		};
+		A275566F1CB0EAE1007257DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A27556421CB0EAE1007257DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A27556491CB0EAE1007257DD;
+			remoteInfo = DZBookReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A275564A1CB0EAE1007257DD /* DZBookReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DZBookReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A275564E1CB0EAE1007257DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A27556501CB0EAE1007257DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A27556511CB0EAE1007257DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A27556531CB0EAE1007257DD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A27556541CB0EAE1007257DD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A27556571CB0EAE1007257DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A27556591CB0EAE1007257DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A275565C1CB0EAE1007257DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A275565E1CB0EAE1007257DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A27556631CB0EAE1007257DD /* DZBookReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DZBookReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A27556671CB0EAE1007257DD /* DZBookReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DZBookReaderTests.m; sourceTree = "<group>"; };
+		A27556691CB0EAE1007257DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A275566E1CB0EAE1007257DD /* DZBookReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DZBookReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A27556721CB0EAE1007257DD /* DZBookReaderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DZBookReaderUITests.m; sourceTree = "<group>"; };
+		A27556741CB0EAE1007257DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A27556471CB0EAE1007257DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27556601CB0EAE1007257DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A275566B1CB0EAE1007257DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A27556411CB0EAE1007257DD = {
+			isa = PBXGroup;
+			children = (
+				A275564C1CB0EAE1007257DD /* DZBookReader */,
+				A27556661CB0EAE1007257DD /* DZBookReaderTests */,
+				A27556711CB0EAE1007257DD /* DZBookReaderUITests */,
+				A275564B1CB0EAE1007257DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A275564B1CB0EAE1007257DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A275564A1CB0EAE1007257DD /* DZBookReader.app */,
+				A27556631CB0EAE1007257DD /* DZBookReaderTests.xctest */,
+				A275566E1CB0EAE1007257DD /* DZBookReaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A275564C1CB0EAE1007257DD /* DZBookReader */ = {
+			isa = PBXGroup;
+			children = (
+				A27556501CB0EAE1007257DD /* AppDelegate.h */,
+				A27556511CB0EAE1007257DD /* AppDelegate.m */,
+				A27556531CB0EAE1007257DD /* ViewController.h */,
+				A27556541CB0EAE1007257DD /* ViewController.m */,
+				A27556561CB0EAE1007257DD /* Main.storyboard */,
+				A27556591CB0EAE1007257DD /* Assets.xcassets */,
+				A275565B1CB0EAE1007257DD /* LaunchScreen.storyboard */,
+				A275565E1CB0EAE1007257DD /* Info.plist */,
+				A275564D1CB0EAE1007257DD /* Supporting Files */,
+			);
+			path = DZBookReader;
+			sourceTree = "<group>";
+		};
+		A275564D1CB0EAE1007257DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A275564E1CB0EAE1007257DD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A27556661CB0EAE1007257DD /* DZBookReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				A27556671CB0EAE1007257DD /* DZBookReaderTests.m */,
+				A27556691CB0EAE1007257DD /* Info.plist */,
+			);
+			path = DZBookReaderTests;
+			sourceTree = "<group>";
+		};
+		A27556711CB0EAE1007257DD /* DZBookReaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A27556721CB0EAE1007257DD /* DZBookReaderUITests.m */,
+				A27556741CB0EAE1007257DD /* Info.plist */,
+			);
+			path = DZBookReaderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A27556491CB0EAE1007257DD /* DZBookReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A27556771CB0EAE1007257DD /* Build configuration list for PBXNativeTarget "DZBookReader" */;
+			buildPhases = (
+				A27556461CB0EAE1007257DD /* Sources */,
+				A27556471CB0EAE1007257DD /* Frameworks */,
+				A27556481CB0EAE1007257DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DZBookReader;
+			productName = DZBookReader;
+			productReference = A275564A1CB0EAE1007257DD /* DZBookReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A27556621CB0EAE1007257DD /* DZBookReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A275567A1CB0EAE1007257DD /* Build configuration list for PBXNativeTarget "DZBookReaderTests" */;
+			buildPhases = (
+				A275565F1CB0EAE1007257DD /* Sources */,
+				A27556601CB0EAE1007257DD /* Frameworks */,
+				A27556611CB0EAE1007257DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A27556651CB0EAE1007257DD /* PBXTargetDependency */,
+			);
+			name = DZBookReaderTests;
+			productName = DZBookReaderTests;
+			productReference = A27556631CB0EAE1007257DD /* DZBookReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A275566D1CB0EAE1007257DD /* DZBookReaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A275567D1CB0EAE1007257DD /* Build configuration list for PBXNativeTarget "DZBookReaderUITests" */;
+			buildPhases = (
+				A275566A1CB0EAE1007257DD /* Sources */,
+				A275566B1CB0EAE1007257DD /* Frameworks */,
+				A275566C1CB0EAE1007257DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A27556701CB0EAE1007257DD /* PBXTargetDependency */,
+			);
+			name = DZBookReaderUITests;
+			productName = DZBookReaderUITests;
+			productReference = A275566E1CB0EAE1007257DD /* DZBookReaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A27556421CB0EAE1007257DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = DZ;
+				TargetAttributes = {
+					A27556491CB0EAE1007257DD = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					A27556621CB0EAE1007257DD = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = A27556491CB0EAE1007257DD;
+					};
+					A275566D1CB0EAE1007257DD = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = A27556491CB0EAE1007257DD;
+					};
+				};
+			};
+			buildConfigurationList = A27556451CB0EAE1007257DD /* Build configuration list for PBXProject "DZBookReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A27556411CB0EAE1007257DD;
+			productRefGroup = A275564B1CB0EAE1007257DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A27556491CB0EAE1007257DD /* DZBookReader */,
+				A27556621CB0EAE1007257DD /* DZBookReaderTests */,
+				A275566D1CB0EAE1007257DD /* DZBookReaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A27556481CB0EAE1007257DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A275565D1CB0EAE1007257DD /* LaunchScreen.storyboard in Resources */,
+				A275565A1CB0EAE1007257DD /* Assets.xcassets in Resources */,
+				A27556581CB0EAE1007257DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27556611CB0EAE1007257DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A275566C1CB0EAE1007257DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A27556461CB0EAE1007257DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27556551CB0EAE1007257DD /* ViewController.m in Sources */,
+				A27556521CB0EAE1007257DD /* AppDelegate.m in Sources */,
+				A275564F1CB0EAE1007257DD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A275565F1CB0EAE1007257DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27556681CB0EAE1007257DD /* DZBookReaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A275566A1CB0EAE1007257DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27556731CB0EAE1007257DD /* DZBookReaderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A27556651CB0EAE1007257DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A27556491CB0EAE1007257DD /* DZBookReader */;
+			targetProxy = A27556641CB0EAE1007257DD /* PBXContainerItemProxy */;
+		};
+		A27556701CB0EAE1007257DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A27556491CB0EAE1007257DD /* DZBookReader */;
+			targetProxy = A275566F1CB0EAE1007257DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A27556561CB0EAE1007257DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A27556571CB0EAE1007257DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A275565B1CB0EAE1007257DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A275565C1CB0EAE1007257DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A27556751CB0EAE1007257DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A27556761CB0EAE1007257DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A27556781CB0EAE1007257DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DZBookReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.dz.com.DZBookReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A27556791CB0EAE1007257DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DZBookReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.dz.com.DZBookReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A275567B1CB0EAE1007257DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DZBookReaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.dz.com.DZBookReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DZBookReader.app/DZBookReader";
+			};
+			name = Debug;
+		};
+		A275567C1CB0EAE1007257DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DZBookReaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.dz.com.DZBookReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DZBookReader.app/DZBookReader";
+			};
+			name = Release;
+		};
+		A275567E1CB0EAE1007257DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DZBookReaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.dz.com.DZBookReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DZBookReader;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A275567F1CB0EAE1007257DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DZBookReaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.dz.com.DZBookReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DZBookReader;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A27556451CB0EAE1007257DD /* Build configuration list for PBXProject "DZBookReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A27556751CB0EAE1007257DD /* Debug */,
+				A27556761CB0EAE1007257DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A27556771CB0EAE1007257DD /* Build configuration list for PBXNativeTarget "DZBookReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A27556781CB0EAE1007257DD /* Debug */,
+				A27556791CB0EAE1007257DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A275567A1CB0EAE1007257DD /* Build configuration list for PBXNativeTarget "DZBookReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A275567B1CB0EAE1007257DD /* Debug */,
+				A275567C1CB0EAE1007257DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A275567D1CB0EAE1007257DD /* Build configuration list for PBXNativeTarget "DZBookReaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A275567E1CB0EAE1007257DD /* Debug */,
+				A275567F1CB0EAE1007257DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A27556421CB0EAE1007257DD /* Project object */;
+}
