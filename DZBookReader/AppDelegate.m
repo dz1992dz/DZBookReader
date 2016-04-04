@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "DZBookRecordManager.h"
 
 @interface AppDelegate ()
 
@@ -15,10 +16,53 @@
 @implementation AppDelegate
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{ 
+    [self registBooksFromDemoBundleIfNeeded];
+    
     return YES;
 }
+
+
+- (void)registBooksFromDemoBundleIfNeeded
+{
+    NSString *keyAlreadyRegistBundleBooks = @"keyAlreadyRegistBundleBooks";
+    BOOL alreadyRegist = [[NSUserDefaults standardUserDefaults] boolForKey:keyAlreadyRegistBundleBooks];
+    if (alreadyRegist)
+    {
+        return;
+    }
+    
+    
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"DemoBooks" ofType:@"plist" ];
+    NSArray *arrayOfBundleBookRecord = [NSArray arrayWithContentsOfFile:filePath];
+    
+    [arrayOfBundleBookRecord enumerateObjectsUsingBlock:^(NSDictionary *dicBundleBook, NSUInteger idx, BOOL * _Nonnull stop)
+    {
+        NSString *bookName = [dicBundleBook valueForKey:@"bookName"];
+        NSString *fileName = [dicBundleBook valueForKey:@"fileName"];
+        NSInteger language = [[dicBundleBook valueForKey:@"language"] integerValue];
+        
+        NSString *bookContentFilePath = [[NSBundle mainBundle] pathForResource:fileName ofType:@"txt"];
+        NSError *error = nil;
+        NSString *bookContent = [NSString stringWithContentsOfFile:bookContentFilePath encoding:NSUTF8StringEncoding error:&error];
+        if (error == nil)
+        {
+            DZBookRecord *bookRecordToRegist = [[DZBookRecord alloc] init];
+            bookRecordToRegist.bookName = bookName;
+            bookRecordToRegist.language = language;
+            
+            [[DZBookRecordManager shareManager] registBookRecordWithBookRecordToRegist:bookRecordToRegist bookContent:bookContent];
+        }
+    }];
+    
+    [[NSUserDefaults standardUserDefaults] setBool:YES forKey:keyAlreadyRegistBundleBooks];
+    
+}
+
+
+
+
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
@@ -38,8 +82,9 @@
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
 }
 
-- (void)applicationWillTerminate:(UIApplication *)application {
-    // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+- (void)applicationWillTerminate:(UIApplication *)application
+{
+    
 }
 
 @end

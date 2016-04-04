@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A25AB3B91CB208F9009DE1CD /* NSString+DZBookReader.m in Sources */ = {isa = PBXBuildFile; fileRef = A25AB3B81CB208F9009DE1CD /* NSString+DZBookReader.m */; settings = {ASSET_TAGS = (); }; };
+		A25AB3C21CB21070009DE1CD /* DZBookReaderContentDivider.m in Sources */ = {isa = PBXBuildFile; fileRef = A25AB3C11CB21070009DE1CD /* DZBookReaderContentDivider.m */; settings = {ASSET_TAGS = (); }; };
+		A25AB3C51CB21094009DE1CD /* DZBookReaderChineseContentDivider.m in Sources */ = {isa = PBXBuildFile; fileRef = A25AB3C41CB21094009DE1CD /* DZBookReaderChineseContentDivider.m */; settings = {ASSET_TAGS = (); }; };
+		A25AB3C81CB210AE009DE1CD /* DZBookReaderEnglishContentDivider.m in Sources */ = {isa = PBXBuildFile; fileRef = A25AB3C71CB210AE009DE1CD /* DZBookReaderEnglishContentDivider.m */; settings = {ASSET_TAGS = (); }; };
+		A25AB3CA1CB21614009DE1CD /* DZBookReaderContentDividerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A25AB3C91CB21614009DE1CD /* DZBookReaderContentDividerTests.m */; settings = {ASSET_TAGS = (); }; };
 		A275564F1CB0EAE1007257DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A275564E1CB0EAE1007257DD /* main.m */; };
 		A27556521CB0EAE1007257DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A27556511CB0EAE1007257DD /* AppDelegate.m */; };
 		A27556551CB0EAE1007257DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A27556541CB0EAE1007257DD /* ViewController.m */; };
@@ -15,6 +20,17 @@
 		A275565D1CB0EAE1007257DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A275565B1CB0EAE1007257DD /* LaunchScreen.storyboard */; };
 		A27556681CB0EAE1007257DD /* DZBookReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A27556671CB0EAE1007257DD /* DZBookReaderTests.m */; };
 		A27556731CB0EAE1007257DD /* DZBookReaderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A27556721CB0EAE1007257DD /* DZBookReaderUITests.m */; };
+		A275568A1CB0FE26007257DD /* DZBookRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = A27556891CB0FE26007257DD /* DZBookRecord.m */; settings = {ASSET_TAGS = (); }; };
+		A275568D1CB0FE60007257DD /* DZBookRecordManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A275568C1CB0FE60007257DD /* DZBookRecordManager.m */; settings = {ASSET_TAGS = (); }; };
+		A27556901CB10279007257DD /* DZBookRecordList.m in Sources */ = {isa = PBXBuildFile; fileRef = A275568F1CB10279007257DD /* DZBookRecordList.m */; settings = {ASSET_TAGS = (); }; };
+		A275569C1CB117D5007257DD /* DemoBooks.plist in Resources */ = {isa = PBXBuildFile; fileRef = A275569B1CB117D5007257DD /* DemoBooks.plist */; settings = {ASSET_TAGS = (); }; };
+		A27556A01CB11854007257DD /* sdxl.txt in Resources */ = {isa = PBXBuildFile; fileRef = A275569F1CB11854007257DD /* sdxl.txt */; settings = {ASSET_TAGS = (); }; };
+		A27810881CB160C800E7A1C8 /* Harry Potter and The Half Blood Prince.txt in Resources */ = {isa = PBXBuildFile; fileRef = A27810871CB160C800E7A1C8 /* Harry Potter and The Half Blood Prince.txt */; settings = {ASSET_TAGS = (); }; };
+		A2BB5B161CB23A9A00E67008 /* DZBookSpeaker.m in Sources */ = {isa = PBXBuildFile; fileRef = A2BB5B151CB23A9A00E67008 /* DZBookSpeaker.m */; settings = {ASSET_TAGS = (); }; };
+		A2BB5B1E1CB276CE00E67008 /* DZBookListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2BB5B191CB276CE00E67008 /* DZBookListViewController.m */; settings = {ASSET_TAGS = (); }; };
+		A2BB5B1F1CB276CE00E67008 /* DZBookListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2BB5B1A1CB276CE00E67008 /* DZBookListViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		A2BB5B201CB276CE00E67008 /* DZBookReaderPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2BB5B1C1CB276CE00E67008 /* DZBookReaderPlayerViewController.m */; settings = {ASSET_TAGS = (); }; };
+		A2BB5B211CB276CE00E67008 /* DZBookReaderPlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2BB5B1D1CB276CE00E67008 /* DZBookReaderPlayerViewController.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +51,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A25AB3B41CB20838009DE1CD /* DZBookReader-var.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DZBookReader-var.h"; sourceTree = "<group>"; };
+		A25AB3B71CB208F9009DE1CD /* NSString+DZBookReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DZBookReader.h"; sourceTree = "<group>"; };
+		A25AB3B81CB208F9009DE1CD /* NSString+DZBookReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DZBookReader.m"; sourceTree = "<group>"; };
+		A25AB3C01CB21070009DE1CD /* DZBookReaderContentDivider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZBookReaderContentDivider.h; sourceTree = "<group>"; };
+		A25AB3C11CB21070009DE1CD /* DZBookReaderContentDivider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZBookReaderContentDivider.m; sourceTree = "<group>"; };
+		A25AB3C31CB21094009DE1CD /* DZBookReaderChineseContentDivider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZBookReaderChineseContentDivider.h; sourceTree = "<group>"; };
+		A25AB3C41CB21094009DE1CD /* DZBookReaderChineseContentDivider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZBookReaderChineseContentDivider.m; sourceTree = "<group>"; };
+		A25AB3C61CB210AE009DE1CD /* DZBookReaderEnglishContentDivider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZBookReaderEnglishContentDivider.h; sourceTree = "<group>"; };
+		A25AB3C71CB210AE009DE1CD /* DZBookReaderEnglishContentDivider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZBookReaderEnglishContentDivider.m; sourceTree = "<group>"; };
+		A25AB3C91CB21614009DE1CD /* DZBookReaderContentDividerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZBookReaderContentDividerTests.m; sourceTree = "<group>"; };
 		A275564A1CB0EAE1007257DD /* DZBookReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DZBookReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A275564E1CB0EAE1007257DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A27556501CB0EAE1007257DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +77,23 @@
 		A275566E1CB0EAE1007257DD /* DZBookReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DZBookReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A27556721CB0EAE1007257DD /* DZBookReaderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DZBookReaderUITests.m; sourceTree = "<group>"; };
 		A27556741CB0EAE1007257DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A27556881CB0FE26007257DD /* DZBookRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZBookRecord.h; sourceTree = "<group>"; };
+		A27556891CB0FE26007257DD /* DZBookRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZBookRecord.m; sourceTree = "<group>"; };
+		A275568B1CB0FE60007257DD /* DZBookRecordManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZBookRecordManager.h; sourceTree = "<group>"; };
+		A275568C1CB0FE60007257DD /* DZBookRecordManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZBookRecordManager.m; sourceTree = "<group>"; };
+		A275568E1CB10279007257DD /* DZBookRecordList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZBookRecordList.h; sourceTree = "<group>"; };
+		A275568F1CB10279007257DD /* DZBookRecordList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZBookRecordList.m; sourceTree = "<group>"; };
+		A275569B1CB117D5007257DD /* DemoBooks.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DemoBooks.plist; sourceTree = "<group>"; };
+		A275569F1CB11854007257DD /* sdxl.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sdxl.txt; sourceTree = "<group>"; };
+		A27810871CB160C800E7A1C8 /* Harry Potter and The Half Blood Prince.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Harry Potter and The Half Blood Prince.txt"; sourceTree = "<group>"; };
+		A2BB5B141CB23A9A00E67008 /* DZBookSpeaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZBookSpeaker.h; sourceTree = "<group>"; };
+		A2BB5B151CB23A9A00E67008 /* DZBookSpeaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZBookSpeaker.m; sourceTree = "<group>"; };
+		A2BB5B181CB276CE00E67008 /* DZBookListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZBookListViewController.h; sourceTree = "<group>"; };
+		A2BB5B191CB276CE00E67008 /* DZBookListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZBookListViewController.m; sourceTree = "<group>"; };
+		A2BB5B1A1CB276CE00E67008 /* DZBookListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DZBookListViewController.xib; sourceTree = "<group>"; };
+		A2BB5B1B1CB276CE00E67008 /* DZBookReaderPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZBookReaderPlayerViewController.h; sourceTree = "<group>"; };
+		A2BB5B1C1CB276CE00E67008 /* DZBookReaderPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZBookReaderPlayerViewController.m; sourceTree = "<group>"; };
+		A2BB5B1D1CB276CE00E67008 /* DZBookReaderPlayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DZBookReaderPlayerViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +121,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A25AB3BF1CB2104E009DE1CD /* BookContentDivider */ = {
+			isa = PBXGroup;
+			children = (
+				A25AB3C01CB21070009DE1CD /* DZBookReaderContentDivider.h */,
+				A25AB3C11CB21070009DE1CD /* DZBookReaderContentDivider.m */,
+				A25AB3C31CB21094009DE1CD /* DZBookReaderChineseContentDivider.h */,
+				A25AB3C41CB21094009DE1CD /* DZBookReaderChineseContentDivider.m */,
+				A25AB3C61CB210AE009DE1CD /* DZBookReaderEnglishContentDivider.h */,
+				A25AB3C71CB210AE009DE1CD /* DZBookReaderEnglishContentDivider.m */,
+			);
+			path = BookContentDivider;
+			sourceTree = "<group>";
+		};
 		A27556411CB0EAE1007257DD = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +157,8 @@
 		A275564C1CB0EAE1007257DD /* DZBookReader */ = {
 			isa = PBXGroup;
 			children = (
+				A27556801CB0EAFB007257DD /* Classes */,
+				A27556941CB114F5007257DD /* DemoResource */,
 				A27556501CB0EAE1007257DD /* AppDelegate.h */,
 				A27556511CB0EAE1007257DD /* AppDelegate.m */,
 				A27556531CB0EAE1007257DD /* ViewController.h */,
@@ -125,6 +183,7 @@
 		A27556661CB0EAE1007257DD /* DZBookReaderTests */ = {
 			isa = PBXGroup;
 			children = (
+				A25AB3C91CB21614009DE1CD /* DZBookReaderContentDividerTests.m */,
 				A27556671CB0EAE1007257DD /* DZBookReaderTests.m */,
 				A27556691CB0EAE1007257DD /* Info.plist */,
 			);
@@ -138,6 +197,57 @@
 				A27556741CB0EAE1007257DD /* Info.plist */,
 			);
 			path = DZBookReaderUITests;
+			sourceTree = "<group>";
+		};
+		A27556801CB0EAFB007257DD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A2BB5B171CB276CE00E67008 /* ViewControllers */,
+				A27556811CB0F0B6007257DD /* Models */,
+				A25AB3BF1CB2104E009DE1CD /* BookContentDivider */,
+				A275568B1CB0FE60007257DD /* DZBookRecordManager.h */,
+				A275568C1CB0FE60007257DD /* DZBookRecordManager.m */,
+				A2BB5B141CB23A9A00E67008 /* DZBookSpeaker.h */,
+				A2BB5B151CB23A9A00E67008 /* DZBookSpeaker.m */,
+				A25AB3B71CB208F9009DE1CD /* NSString+DZBookReader.h */,
+				A25AB3B81CB208F9009DE1CD /* NSString+DZBookReader.m */,
+				A25AB3B41CB20838009DE1CD /* DZBookReader-var.h */,
+			);
+			path = Classes;
+			sourceTree = SOURCE_ROOT;
+		};
+		A27556811CB0F0B6007257DD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A27556881CB0FE26007257DD /* DZBookRecord.h */,
+				A27556891CB0FE26007257DD /* DZBookRecord.m */,
+				A275568E1CB10279007257DD /* DZBookRecordList.h */,
+				A275568F1CB10279007257DD /* DZBookRecordList.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A27556941CB114F5007257DD /* DemoResource */ = {
+			isa = PBXGroup;
+			children = (
+				A27810871CB160C800E7A1C8 /* Harry Potter and The Half Blood Prince.txt */,
+				A275569F1CB11854007257DD /* sdxl.txt */,
+				A275569B1CB117D5007257DD /* DemoBooks.plist */,
+			);
+			path = DemoResource;
+			sourceTree = "<group>";
+		};
+		A2BB5B171CB276CE00E67008 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A2BB5B181CB276CE00E67008 /* DZBookListViewController.h */,
+				A2BB5B191CB276CE00E67008 /* DZBookListViewController.m */,
+				A2BB5B1A1CB276CE00E67008 /* DZBookListViewController.xib */,
+				A2BB5B1B1CB276CE00E67008 /* DZBookReaderPlayerViewController.h */,
+				A2BB5B1C1CB276CE00E67008 /* DZBookReaderPlayerViewController.m */,
+				A2BB5B1D1CB276CE00E67008 /* DZBookReaderPlayerViewController.xib */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +353,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A27810881CB160C800E7A1C8 /* Harry Potter and The Half Blood Prince.txt in Resources */,
+				A275569C1CB117D5007257DD /* DemoBooks.plist in Resources */,
 				A275565D1CB0EAE1007257DD /* LaunchScreen.storyboard in Resources */,
 				A275565A1CB0EAE1007257DD /* Assets.xcassets in Resources */,
 				A27556581CB0EAE1007257DD /* Main.storyboard in Resources */,
+				A2BB5B211CB276CE00E67008 /* DZBookReaderPlayerViewController.xib in Resources */,
+				A27556A01CB11854007257DD /* sdxl.txt in Resources */,
+				A2BB5B1F1CB276CE00E67008 /* DZBookListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,8 +386,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				A27556551CB0EAE1007257DD /* ViewController.m in Sources */,
+				A2BB5B201CB276CE00E67008 /* DZBookReaderPlayerViewController.m in Sources */,
+				A2BB5B1E1CB276CE00E67008 /* DZBookListViewController.m in Sources */,
+				A2BB5B161CB23A9A00E67008 /* DZBookSpeaker.m in Sources */,
+				A25AB3C21CB21070009DE1CD /* DZBookReaderContentDivider.m in Sources */,
+				A25AB3C81CB210AE009DE1CD /* DZBookReaderEnglishContentDivider.m in Sources */,
+				A25AB3B91CB208F9009DE1CD /* NSString+DZBookReader.m in Sources */,
+				A27556901CB10279007257DD /* DZBookRecordList.m in Sources */,
 				A27556521CB0EAE1007257DD /* AppDelegate.m in Sources */,
+				A275568D1CB0FE60007257DD /* DZBookRecordManager.m in Sources */,
+				A25AB3C51CB21094009DE1CD /* DZBookReaderChineseContentDivider.m in Sources */,
 				A275564F1CB0EAE1007257DD /* main.m in Sources */,
+				A275568A1CB0FE26007257DD /* DZBookRecord.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +406,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A27556681CB0EAE1007257DD /* DZBookReaderTests.m in Sources */,
+				A25AB3CA1CB21614009DE1CD /* DZBookReaderContentDividerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,9 +538,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DZBookReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = www.dz.com.DZBookReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -423,9 +551,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DZBookReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = www.dz.com.DZBookReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -496,6 +626,7 @@
 				A27556791CB0EAE1007257DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A275567A1CB0EAE1007257DD /* Build configuration list for PBXNativeTarget "DZBookReaderTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +635,7 @@
 				A275567C1CB0EAE1007257DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A275567D1CB0EAE1007257DD /* Build configuration list for PBXNativeTarget "DZBookReaderUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +644,7 @@
 				A275567F1CB0EAE1007257DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

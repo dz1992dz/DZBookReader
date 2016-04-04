@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>language</key>
+		<string>1</string>
+		<key>bookName</key>
+		<string>哈利波特之混血王子</string>
+		<key>fileName</key>
+		<string>Harry Potter and The Half Blood Prince</string>
+	</dict>
+	<dict>
+		<key>language</key>
+		<string>0</string>
+		<key>bookName</key>
+		<string>神雕侠侣03版</string>
+		<key>fileName</key>
+		<string>sdxl</string>
+	</dict>
+</array>
+</plist>
